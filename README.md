@@ -5,8 +5,8 @@ Texts are normalised and separated by '\n' dilimeter.
 
 * Size:           ~ 1.5 GB
 * Articles:       ~ 505 000
-* Words:          122 857 512
-* Vocabrary size: 512 731 (110000 with freguency > 5)
+* Words:          123 093 058
+* Vocabrary size: 513 375 (144 784 with freguency > 5)
 
 The corpus could be usefull in NLP projects, [word2vec](https://github.com/maxoodf/word2vec) models training and other ML algorithms developing.
 
@@ -25,10 +25,10 @@ cat ./russian_news.txt.bz2_a* | bzip2 -d > ./russian_news.txt
 
 * Размер корпуса: ~ 1.5 GB
 * Статей:         ~ 505 000
-* Слов:           122 857 512
-* Размер словаря: 512 731 (110 000 встречающихся более 5 раз)
+* Слов:           123 093 058
+* Размер словаря: 513 375 (144 784 встречающихся более 5 раз)
 
-Назначения корпуса - исследования, связанные с машинной обработкой текстов, создание [word2vec](https://github.com/maxoodf/word2vec) моделей, алгоритмов машинного обучения и т.д.
+Назначение данного корпуса - исследования, связанные с машинной обработкой текстов, создание [word2vec](https://github.com/maxoodf/word2vec) моделей, алгоритмов машинного обучения и т.д.
 
 ####Как загрузить корпус
 Файл с содержимым корпуса сжат и разбит на части по 49М. Необходимо выполнить следующие команды для получения исходного файла в текстовом формате:
