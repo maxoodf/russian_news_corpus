@@ -1,7 +1,7 @@
 ##Russian mass media normalised texts corpus
 
 Russian mass media (27 top on-line sources) articles collection for the period of 01.04.2016 - 25.07.2016.
-Texts are normalised and separated by '\n' dilimeter.
+Articles are normalised and separated by '\n' char dilimeter.
 
 * Size:           ~ 1.5 GB
 * Articles:       ~ 505 000
@@ -21,7 +21,7 @@ cat ./russian_news.txt.bz2_a* | bzip2 -d > ./russian_news.txt
 ##Корпус нормализованных текстов российских СМИ
 
 Корпус нормализованных текстов российских СМИ (27 ведущих он-лайн порталов) за период 01.04.2016 - 25.07.2016.
-Все тексты нормализованы и разделены символом '\n'.
+Все статьи нормализованы и разделены символом '\n'.
 
 * Размер корпуса: ~ 1.5 GB
 * Статей:         ~ 505 000
