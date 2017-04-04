@@ -6,6 +6,7 @@ Also, the original collection (without stemming) can be downloaded [here](https:
 - Words, total:    ~ 360 000 000
 - Words, unique:   ~ 5 178 821
 - Vocabulary size: 435 114 (word frequency > 10)
+
 The corpus could be useful in NLP projects, [word2vec](https://github.com/maxoodf/word2vec) models training and other ML algorithms developing.
 
 #### HOWTO
@@ -25,6 +26,7 @@ cat ./russian_news.txt.bz2_a* | bzip2 -d > ./russian_news.txt
 - Слов, всего:      ~ 360 000 000
 - Слов, уникальных: ~ 5 178 821
 - Размер словаря:   435 114 (частота слова > 10)
+
 Назначение данного корпуса - исследования, связанные с машинной обработкой текстов, создание [word2vec](https://github.com/maxoodf/word2vec) моделей, алгоритмов машинного обучения и т.д.
 
 #### Как загрузить корпус
