@@ -8,7 +8,7 @@ Also, the original collection (without stemming) can be downloaded [here](https:
 - Vocabulary size: 435 114 (word frequency > 10)
 The corpus could be useful in NLP projects, [word2vec](https://github.com/maxoodf/word2vec) models training and other ML algorithms developing.
 
-### HOWTO
+#### HOWTO
 The file is compressed by bzip2 utility and split to 49M parts.  
 Execute the following commands to get the corpus in txt format:
 ```bash
@@ -27,7 +27,7 @@ cat ./russian_news.txt.bz2_a* | bzip2 -d > ./russian_news.txt
 - Размер словаря:   435 114 (частота слова > 10)
 Назначение данного корпуса - исследования, связанные с машинной обработкой текстов, создание [word2vec](https://github.com/maxoodf/word2vec) моделей, алгоритмов машинного обучения и т.д.
 
-### Как загрузить корпус
+#### Как загрузить корпус
 Файл с содержимым корпуса сжат и разбит на части по 49М. Необходимо выполнить следующие команды для получения исходного файла в текстовом формате:
 ```bash
 git clone https://github.com/maxoodf/russian_news_corpus.git
